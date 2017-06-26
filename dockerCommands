@@ -1,0 +1,4 @@
+docker run -it fedora /bin/bash
+(to pull the latest image from dockerhub cloud..the latest version and opens the bash in it for typing commands)
+docker pull -a fedora
+(pulls all the images of fedora from dockerhub cloud.)
