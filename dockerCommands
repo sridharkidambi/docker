@@ -5,3 +5,17 @@ docker pull -a fedora
 docker ps (list all containers available)
 docker attach containerID (attaches a container)
 CTRL+P+Q quit to docker host.
+
+docker ps
+docker commit f9c44a915ee6 newimage
+docker run newimage
+
+docker history newimage
+docker save -o /newimage.tar newimage
+docker run --cpu-shares=256
+docker run memory=1g
+docker inspect <dockerid>
+docker attach <dockerName>
+
+
+
